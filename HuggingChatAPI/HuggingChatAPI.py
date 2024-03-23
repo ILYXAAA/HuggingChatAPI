@@ -196,12 +196,12 @@ class SimpleHugChat:
                 for item in data_list:
                     if json.loads(item).get("type") == "finalAnswer":
                         if highlight_result:
-                            return highlight_code(json.loads(item).get("type"))
+                            return highlight_code(json.loads(item)["text"])
                         else:
                             if json.loads(item).get("type")[0] == " ":
-                                return json.loads(item).get("type")[1:]
+                                return json.loads(item)["text"][1:]
                             else:
-                                return json.loads(item).get("type")
+                                return json.loads(item)["text"]
                 return None
             
             except AttributeError and json.JSONDecodeError as error:
