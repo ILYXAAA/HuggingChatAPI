@@ -1,7 +1,6 @@
 googletrans==4.0.0-rc1
 pygments
 requests
-json
 urllib3
 warnings
 traceback
