@@ -8,6 +8,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![PyPi](https://img.shields.io/pypi/v/hugchat.svg?logo=pypi&logoColor=white)](https://pypi.org/project/HuggingChatAPI/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ILYXAAA/HuggingChatAPI)
 ![GitHub Issues](https://img.shields.io/github/issues/ILYXAAA/HuggingChatAPI)
 
